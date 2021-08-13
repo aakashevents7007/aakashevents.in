@@ -1,0 +1,442 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+}
+.wrapper{
+	width: 1270px;
+	margin: 0 auto;
+}
+.header{
+	width: 1270px;
+	height: 60px;
+	background-color: burlywood;
+	margin-bottom: 15px;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.small-section{
+	width: 190px;
+	height: 60px;
+	background-color: burlywood;
+	color: #fff;
+	font-size: 30px;
+	font-family:serif;
+	float: left;
+
+}
+.big-section{
+	width: 1000px;
+	height: 60px;
+	background-color: burlywood;
+	float: right;
+	
+}
+.menu 
+{
+	border: 2px solid burlywood;
+	margin-top: 6px;
+	
+}
+.menu ul
+{
+	color: #314584; 
+	position:relative;
+	margin: 0;
+	padding: 0;
+	float:right; 
+	margin-right: 200px;
+	display:block;
+} 
+.menu > ul{
+	background: burlywood;
+}
+.menu ul a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	padding: 0 15px;
+}
+.menu ul li{
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li:hover {
+	background: grey;
+}
+.menu ul ul{
+	position: absolute;
+	background-color:goldenrod;
+	top: 100%;
+	left: 0;
+	display: none;
+	margin-top: 2px;
+	
+}
+.menu ul ul li{
+	float: none;
+	width: 200px;
+}
+.menu ul ul li:hover{
+	border-left: 3px solid black;
+}
+.menu ul li:hover > ul{
+	display: block;
+	
+}
+.btn1
+{
+	color: #fff;
+	font-size: 35px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	right: 0;
+	top: 15px;
+	outline: none;
+	margin-right: 100px;
+	box-sizing: border-box;
+    
+}
+.banner
+{
+	width: 1270px;
+	height: 160px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	
+}
+.box
+{
+	width: 400px;
+	height: 160px;
+	margin:0 auto;
+	border: 5.5px solid wheat;
+	background-color: burlywood;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.head1{
+	font-size: 24px;
+	
+}
+.head1 h1{
+	margin-left: 120px;
+}
+.head1 p{
+	font-family:cursive;
+	font-size: 20px;
+}
+.div1
+{
+	float: left;
+}
+h1
+{
+	margin-left: 40.5px;
+	color: brown;
+}
+p
+{
+	margin-left: 40.5px;
+
+}
+.var h1
+{
+	color: brown;
+}
+.image-area
+{
+	width: 1270px;
+	height: 1900px;
+    margin-bottom: 15px;
+}
+.div2
+{
+	width: 1270px;
+	height: 700px;
+	margin-bottom: 10px;
+
+}
+.image-area .div2 img{
+	width: 400px;
+	height: 400px;
+    float: right;
+	margin-right:0;
+	margin-bottom: 30px;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.div2 h2
+{
+	font-size: 30px;
+	font-family: serif;
+	clear: left;
+	margin-left: 80px;
+	color:purple;
+}
+.div2 p
+{
+	font-size:20px;
+	font-family: serif;
+	margin-bottom: 90px;
+}
+.lop2
+{
+	width: 1270px;
+	height: 450px;
+	margin-bottom: 10px;
+}
+.image-area .lop2 img{
+	width: 400px;
+	height: 380px;
+    float: left;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.lop2 h2
+{
+	font-size: 30px;
+	font-family: serif;
+	clear: right;
+	margin-left: 80px;
+	color:purple;
+}
+
+.lop2 p
+{
+	font-size:20px;
+	font-family: serif;
+	margin-bottom: 10px;
+}
+.lop3
+{
+	width: 1270px;
+	height: 400px;
+ margin-bottom: 30px;
+}
+.image-area .lop3 img{
+	width: 400px;
+	height: 400px;
+    float: right;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.lop3 h2
+{
+	font-size: 30px;
+	font-family: serif;
+	clear: left;
+	margin-left: 80px;
+	color:purple;
+}
+
+.lop3 p
+{
+	font-size:20px;
+	font-family: serif;
+	
+}
+.div3
+{
+	width: 300px;
+	height: 350px;
+	position: relative;
+	margin-left: 160px;
+	float: left;
+}
+.div3 img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	cursor: pointer;
+	transition: o.5s ease-in-out;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.div3:hover img:nth-child(1){
+	transform: translate(40px,-320px);
+}
+.div3:hover img:nth-child(2){
+	transform: translate(-40px,320px);
+}
+.div4
+{
+	width: 300px;
+	height: 350px;
+	position: relative;
+	margin-left: 770px;
+	margin-top: 40px;
+}
+.div4 img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	cursor: pointer;
+	transition: o.5s ease-in-out;
+box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.div4:hover img:nth-child(1){
+	transform: translate(320px,0px);
+}
+.div4:hover img:nth-child(2){
+	transform: translate(-320px,0px);
+}
+.div5 {
+	width: 1270px;
+	height: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.div5 img {
+	width:300px;
+	height: 300px;
+	margin-left: 50px;
+	box-shadow:  0 25px 10px 0 #aaa9a9;
+}
+.div5 h1{
+	font-size:30px;
+	font-family: serif;
+	color: purple;
+	margin-left: 400px;
+}
+.div5 p{
+	font-size:20px;
+	font-family: serif;
+	margin-bottom: 400px;
+}
+.input-box
+{
+	width: 47%;
+	height: 40px;
+	border: 2px solid grey;
+	background-color:#faf4fe;
+	margin: 1% 1%;
+}
+.message-box{
+	width: 55.5%;
+	height: 50px;
+	border: 2px solid grey;
+	box-sizing:  0 3px 8px 0 #aaa9a9;
+}
+::placeholder{
+	color: #314584;
+	padding-left: 20px;
+	font-family: serif;
+	font-size: 17px;
+}
+.message-box ::placeholder{
+	padding-top: 20px;
+}
+.check{
+	width: 20px;
+	height: 25px;
+	border: none;
+	box-shadow: 0 5px 8px 0 #aaa9a9;
+	border-radius: 7px;
+	font-size: 1.1rem;
+	font-weight: 600;	
+}
+.dp{
+	width: 160px;
+	border: 2px solid grey;
+	box-shadow:  0 8px 8px 0 #aaa9a9;
+	font-size: 17px;
+	background-color: antiquewhite;
+}
+.bd{
+	width: 160px;
+	border: 2px solid grey;
+	box-shadow:  0 8px 8px 0 #aaa9a9;
+	font-size: 17px;
+	border: 1px solid #314584;
+	color: #314584;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: inline-block;
+	position: relative;
+	transition: all 0.5s ease 0s;
+}
+.bd::after{
+	background:#314584;
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 0%;
+	height: 100%;
+	z-index: -1;
+	transition: all 0.5s ease 0s;	
+}
+.bd:hover{
+	color: #fff;
+}
+.bd:hover::after{
+	width: 100%;
+}
+footer{
+	width: 1270px;
+	height:160px;
+	background-color: gray;
+	color: #fff;
+	
+	padding: 2% 0 3% 0;
+}
+h5{
+	font-size: 1rem;
+	text-align: center;
+}
+h3{
+	font-size: 2rem;
+	color: orange;
+	padding: 5px 0;
+	margin-top:0;
+	text-align: center;
+}
+h6{
+	font-size:  1rem;
+	color: orange;
+    float: right;
+	margin-top: 10px;
+}
+.pop {
+	font-size: 20px;
+   float: left;
+}
+.pop2 {
+	font-size: 17px;
+    float: right;
+	margin-bottom:15px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

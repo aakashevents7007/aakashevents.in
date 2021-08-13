@@ -101,10 +101,10 @@ body
 	background-color: transparent;
 	border: none;
 	position: absolute;
-	right: 0;
-	top: 15px;
+	left: 0;
+	top: 14px;
 	outline: none;
-	margin-left: 20px;
+	margin-left: 220px;
 	box-sizing: border-box;
     
 }

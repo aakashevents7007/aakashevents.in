@@ -678,7 +678,7 @@ h1{
 }
 footer{
 	width: 900px;
-	height:160px;
+	height:220px;
 	background-color: gray;
 	color: #fff;
 	
@@ -698,17 +698,14 @@ h3{
 h6{
 	font-size:  1rem;
 	color: orange;
-    float: right;
-	margin-top: 10px;
+  
 }
 .pop {
 	font-size: 20px;
-   float: left;
-}
+   
 .pop2 {
 	font-size: 17px;
-    float: right;
-	margin-bottom:15px; 
+ 
 }
 }
 @media screen and (max-width:750px){
@@ -913,7 +910,7 @@ h1{
 }
 footer{
 	width: 750px;
-	height:160px;
+	height:220px;
 	background-color: gray;
 	color: #fff;
 	
@@ -933,17 +930,13 @@ h3{
 h6{
 	font-size:  1rem;
 	color: orange;
-    float: right;
-	margin-top: 10px;
+  
 }
 .pop {
-	font-size: 20px;
-   float: left;
+	font-size: 17px;
 }
 .pop2 {
 	font-size: 17px;
-    float: right;
-	margin-bottom:15px; 
 }
 
 }
@@ -1146,7 +1139,7 @@ h1{
 }
 footer{
 	width: 320px;
-	height:180px;
+	height:200px;
 	background-color: gray;
 	color: #fff;
 	
@@ -1178,6 +1171,25 @@ h6{
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

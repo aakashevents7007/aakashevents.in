@@ -231,18 +231,13 @@ h3{
 h6{
 	font-size:  1rem;
 	color: orange;
-    float: right;
-	margin-top: 10px;
+	text-align: center;
 }
-.pop {
-	font-size: 20px;
-   float: left;
-}
-.pop2 {
-	font-size: 17px;
-    float: right;
-	margin-bottom:15px; 
-}
+p{
+		font-size: 15px;
+	text-align: center;
+	}
+
 @media screen and (max-width:1100px){
 	.wrapper{
 	width: 1100px;
@@ -464,18 +459,12 @@ h3{
 h6{
 	font-size:  1rem;
 	color: orange;
-    float: right;
-	margin-top: 10px;
+  text-align: center;
 }
-.pop {
-	font-size: 20px;
-   float: left;
-}
-.pop2 {
-	font-size: 17px;
-    float: right;
-	margin-bottom:15px; 
-}
+p{
+		font-size: 15px;
+	text-align: center;
+	}
 }
 @media screen and (max-width:900px){
 	.wrapper{
@@ -678,7 +667,7 @@ h1{
 }
 footer{
 	width: 900px;
-	height:600px;
+	height:220px;
 	background-color: gray;
 	color: #fff;
 	
@@ -698,15 +687,12 @@ h3{
 h6{
 	font-size:  1rem;
 	color: orange;
-  
+  text-align: center;
 }
-.pop {
-	font-size: 20px;
-   
-.pop2 {
-	font-size: 17px;
- 
-}
+p{
+		font-size: 15px;
+	text-align: center;
+	}
 }
 @media screen and (max-width:750px){
 	.wrapper{
@@ -910,7 +896,7 @@ h1{
 }
 footer{
 	width: 750px;
-	height:700px;
+	height:220px;
 	background-color: gray;
 	color: #fff;
 	
@@ -930,15 +916,12 @@ h3{
 h6{
 	font-size:  1rem;
 	color: orange;
-  
+  text-align: center;
 }
-.pop {
-	font-size: 17px;
-}
-.pop2 {
-	font-size: 17px;
-}
-
+p{
+		font-size: 15px;
+	text-align: center;
+	}
 }
 @media screen and (max-width:320px){
 	.wrapper{
@@ -1139,7 +1122,7 @@ h1{
 }
 footer{
 	width: 320px;
-	height:500px;
+	height:200px;
 	background-color: gray;
 	color: #fff;
 	
@@ -1161,57 +1144,10 @@ h6{
 	color: orange;
 	text-align: center;
 }
-.pop {
-	font-size: 15px;
-	text-align: center;
-}
-.pop2 {
-	font-size: 15px;
-	text-align: center;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	p{
+		font-size: 15px;
+		text-align: center;
+	}
+	}
 
 
